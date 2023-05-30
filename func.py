@@ -105,6 +105,7 @@ def consulta_optante_simples(cnpj):
 
         Se a resposta não seguir essa estrutura, a função lançará um ValueError.
     """
+    print(f'Consultando status simples: {cnpj}')
     servico_url = '/receita-federal/simples'
 
     try:
@@ -123,11 +124,31 @@ def consulta_optante_simples(cnpj):
         'simples_nacional_situacao')
 
     if not status_simples_nacional:
-        logger.error(
-            f"A resposta não contém 'simples_nacional_situacao': {response}")
-        raise ValueError("Resposta inesperada do serviço")
+        raise ValueError(
+            f"Resposta inesperada do serviço. A resposta não contém 'simples_nacional_situacao': \n{response}")
 
-    return status_simples_nacional != 'NÃO optante pelo Simples Nacional'
+    # return status_simples_nacional != 'NÃO optante pelo Simples Nacional'
+    return False
+
+
+def extract_text(element: ET, key: str, opcional='') -> str:
+    if element.find(key) is None:
+        return element.find(opcional).text
+
+    return element.find(key).text
+
+
+def validate_simples(tomador_cnpj, prestador_cnpj):
+    # tomador_is_simples = consulta_optante_simples(tomador_cnpj)
+    # prestador_is_simples = consulta_optante_simples(prestador_cnpj)
+
+    if tomador_cnpj is None or prestador_cnpj is None:
+        raise KeyError('Forneça o CNPJ para a consulta seu migué')
+
+    # is_checked = not tomador_is_simples and not prestador_is_simples
+
+    # return f"Tomador: {tomador_is_simples}\nPrestador: {prestador_is_simples}" if not is_checked else is_checked
+    return True
 
 
 if __name__ == "__main__":

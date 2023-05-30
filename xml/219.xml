@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsultarNfseResposta>
+    <ListaNfse>
+        <CompNfse>
+            <Nfse>
+                <InfNfse id="id">
+                    <Numero>219</Numero>
+                    <CodigoVerificacao>jlcouhav9</CodigoVerificacao>
+                    <DataEmissao>2023-03-07</DataEmissao>
+                    <IdentificacaoRps>
+                        <Numero>0</Numero>
+                        <Serie></Serie>
+                        <Tipo>0</Tipo>
+                    </IdentificacaoRps>
+                    <NaturezaOperacao>1</NaturezaOperacao>
+                    <OptanteSimplesNacional>1</OptanteSimplesNacional>
+                    <Competencia>2023-03-01</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>132.0</ValorServicos>
+                            <ValorDeducoes>0.0</ValorDeducoes>
+                            <ValorPis>0.0</ValorPis>
+                            <ValorCofins>0.0</ValorCofins>
+                            <ValorInss>0.0</ValorInss>
+                            <ValorIr>0.0</ValorIr>
+                            <ValorCsll>0.0</ValorCsll>
+                            <IssRetido>2</IssRetido>
+                            <ValorIss>2.86</ValorIss>
+                            <OutrasRetencoes>0.0</OutrasRetencoes>
+                            <BaseCalculo>132.0</BaseCalculo>
+                            <Aliquota>2.17</Aliquota>
+                            <ValorLiquidoNfse>132.0</ValorLiquidoNfse>
+                            <ValorIssRetido>0.0</ValorIssRetido>
+                            <DescontoCondicionado>0.0</DescontoCondicionado>
+                            <DescontoIncondicionado>0.0</DescontoIncondicionado>
+                        </Valores>
+                        <ItemListaServico>403</ItemListaServico>
+                        <CodigoCnae>8630503</CodigoCnae>
+                        <CodigoTributacaoMunicipio>863050300</CodigoTributacaoMunicipio>
+                        <Discriminacao>Referente a teste ergométrico realizado em 12/05/2022.</Discriminacao>
+                        <CodigoMunicipio>2307304</CodigoMunicipio>
+                    </Servico>
+                    <PrestadorServico>
+                        <IdentificacaoPrestador>
+                            <Cnpj>29765135000120</Cnpj>
+                            <InscricaoMunicipal>1563744</InscricaoMunicipal>
+                        </IdentificacaoPrestador>
+                        <RazaoSocial>CLINICA MEDCENTER LTDA</RazaoSocial>
+                        <NomeFantasia>CLINICA MEDCENTER</NomeFantasia>
+                        <Endereco>RUA RAIMUNDO MACHADO DA SILVA 155</Endereco>
+                        <Contato />
+                    </PrestadorServico>
+                    <TomadorServico>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+                                <Cpf>08305955389</Cpf>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>0</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>Yasmin Vieira Soares</RazaoSocial>
+                        <Endereco>
+                            <Endereco>RUA Alto do Coquici</Endereco>
+                            <Numero>269</Numero>
+                            <Bairro>Caipu</Bairro>
+                            <CodigoMunicipio>2303303</CodigoMunicipio>
+                            <Uf>CE</Uf>
+                        </Endereco>
+                        <Contato />
+                    </TomadorServico>
+                    <OrgaoGerador>
+                        <CodigoMunicipio>2307304</CodigoMunicipio>
+                        <Uf>CE</Uf>
+                    </OrgaoGerador>
+                    <ConstrucaoCivil>
+                        <CodigoObra></CodigoObra>
+                        <Art></Art>
+                    </ConstrucaoCivil>
+                </InfNfse>
+            </Nfse>
+        </CompNfse>
+    </ListaNfse>
+</ConsultarNfseResposta>

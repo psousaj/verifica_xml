@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsultarNfseResposta>
+    <ListaNfse>
+        <CompNfse>
+            <Nfse>
+                <InfNfse id="id">
+                    <Numero>217</Numero>
+                    <CodigoVerificacao>q32fiyemh</CodigoVerificacao>
+                    <DataEmissao>2023-03-06</DataEmissao>
+                    <IdentificacaoRps>
+                        <Numero>0</Numero>
+                        <Serie></Serie>
+                        <Tipo>0</Tipo>
+                    </IdentificacaoRps>
+                    <NaturezaOperacao>1</NaturezaOperacao>
+                    <OptanteSimplesNacional>1</OptanteSimplesNacional>
+                    <Competencia>2023-03-01</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>250.0</ValorServicos>
+                            <ValorDeducoes>0.0</ValorDeducoes>
+                            <ValorPis>0.0</ValorPis>
+                            <ValorCofins>0.0</ValorCofins>
+                            <ValorInss>0.0</ValorInss>
+                            <ValorIr>0.0</ValorIr>
+                            <ValorCsll>0.0</ValorCsll>
+                            <IssRetido>2</IssRetido>
+                            <ValorIss>5.43</ValorIss>
+                            <OutrasRetencoes>5.42</OutrasRetencoes>
+                            <BaseCalculo>250.0</BaseCalculo>
+                            <Aliquota>2.17</Aliquota>
+                            <ValorLiquidoNfse>244.58</ValorLiquidoNfse>
+                            <ValorIssRetido>0.0</ValorIssRetido>
+                            <DescontoCondicionado>0.0</DescontoCondicionado>
+                            <DescontoIncondicionado>0.0</DescontoIncondicionado>
+                        </Valores>
+                        <ItemListaServico>403</ItemListaServico>
+                        <CodigoCnae>8630503</CodigoCnae>
+                        <CodigoTributacaoMunicipio>863050300</CodigoTributacaoMunicipio>
+                        <Discriminacao>SERVIÇOS MÉDICOS EM PLANTONISTA UTI/ INTENSIVISTA / PLANTÃO
+                            PRESTADOS NO HOSPITAL SANTO ANTÔNIO – HSA POR HUGO NAPOLEÃO CAVALCANTI
+                            ROLIM PORTADOR DO CRM 22656PE.
+
+                            DADOS BANCÁRIOS: BANCO DO BRASIL.
+                            AGÊNCIA: 640-8
+                            CONTA: 34486-9</Discriminacao>
+                        <CodigoMunicipio>2307304</CodigoMunicipio>
+                    </Servico>
+                    <PrestadorServico>
+                        <IdentificacaoPrestador>
+                            <Cnpj>29765135000120</Cnpj>
+                            <InscricaoMunicipal>1563744</InscricaoMunicipal>
+                        </IdentificacaoPrestador>
+                        <RazaoSocial>CLINICA MEDCENTER LTDA</RazaoSocial>
+                        <NomeFantasia>CLINICA MEDCENTER</NomeFantasia>
+                        <Endereco>RUA RAIMUNDO MACHADO DA SILVA 155</Endereco>
+                        <Contato />
+                    </PrestadorServico>
+                    <TomadorServico>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+                                <Cnpj>41343187000456</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>0</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>FUNDAÇÃO OTILIA CORREIA SARAIVA- HSA</RazaoSocial>
+                        <Endereco>
+                            <Endereco>Rua Zuca Sampaio</Endereco>
+                            <Numero>685</Numero>
+                            <Bairro>Vila Santo Antônio</Bairro>
+                            <CodigoMunicipio>2301901</CodigoMunicipio>
+                            <Uf>CE</Uf>
+                            <Cep>63180000</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>88 3532 7739</Telefone>
+                            <Email>focstesouraria@outlook.com</Email>
+                        </Contato>
+                    </TomadorServico>
+                    <OrgaoGerador>
+                        <CodigoMunicipio>2307304</CodigoMunicipio>
+                        <Uf>CE</Uf>
+                    </OrgaoGerador>
+                    <ConstrucaoCivil>
+                        <CodigoObra></CodigoObra>
+                        <Art></Art>
+                    </ConstrucaoCivil>
+                </InfNfse>
+            </Nfse>
+            <CancelamentoNfse>
+                <ConfirmacaoCancelamento id="id">
+                    <PedidoCancelamento>
+                        <InfPedidoCancelamento>
+                            <IdentificacaoNfse>
+                                <Numero>217</Numero>
+                                <CodigoMunicipio>1</CodigoMunicipio>
+                            </IdentificacaoNfse>
+                        </InfPedidoCancelamento>
+                        <Signature>signature</Signature>
+                    </PedidoCancelamento>
+                    <InfConfirmacaoCancelamento>
+                        <Sucesso>true</Sucesso>
+                        <DataHora>2023-03-28T12:00:00</DataHora>
+                    </InfConfirmacaoCancelamento>
+                </ConfirmacaoCancelamento>
+                <Signature>signature</Signature>
+            </CancelamentoNfse>
+        </CompNfse>
+    </ListaNfse>
+</ConsultarNfseResposta>

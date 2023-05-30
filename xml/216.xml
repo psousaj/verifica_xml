@@ -5,31 +5,31 @@
             <Nfse>
                 <InfNfse id="id">
                     <Numero>216</Numero>
-                    <CodigoVerificacao>n5blrtguj</CodigoVerificacao>
-                    <DataEmissao>2023-02-01</DataEmissao>
+                    <CodigoVerificacao>bp3dl92ki</CodigoVerificacao>
+                    <DataEmissao>2023-03-02</DataEmissao>
                     <IdentificacaoRps>
                         <Numero>0</Numero>
                         <Serie></Serie>
                         <Tipo>0</Tipo>
                     </IdentificacaoRps>
                     <NaturezaOperacao>1</NaturezaOperacao>
-                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
-                    <Competencia>2023-02-01</Competencia>
+                    <OptanteSimplesNacional>1</OptanteSimplesNacional>
+                    <Competencia>2023-03-01</Competencia>
                     <Servico>
                         <Valores>
-                            <ValorServicos>6679.0</ValorServicos>
+                            <ValorServicos>200.0</ValorServicos>
                             <ValorDeducoes>0.0</ValorDeducoes>
-                            <ValorPis>43.41</ValorPis>
-                            <ValorCofins>200.37</ValorCofins>
+                            <ValorPis>0.0</ValorPis>
+                            <ValorCofins>0.0</ValorCofins>
                             <ValorInss>0.0</ValorInss>
-                            <ValorIr>100.19</ValorIr>
-                            <ValorCsll>66.79</ValorCsll>
+                            <ValorIr>0.0</ValorIr>
+                            <ValorCsll>0.0</ValorCsll>
                             <IssRetido>2</IssRetido>
-                            <ValorIss>200.37</ValorIss>
+                            <ValorIss>4.34</ValorIss>
                             <OutrasRetencoes>0.0</OutrasRetencoes>
-                            <BaseCalculo>6679.0</BaseCalculo>
-                            <Aliquota>3.0</Aliquota>
-                            <ValorLiquidoNfse>6268.24</ValorLiquidoNfse>
+                            <BaseCalculo>200.0</BaseCalculo>
+                            <Aliquota>2.17</Aliquota>
+                            <ValorLiquidoNfse>200.0</ValorLiquidoNfse>
                             <ValorIssRetido>0.0</ValorIssRetido>
                             <DescontoCondicionado>0.0</DescontoCondicionado>
                             <DescontoIncondicionado>0.0</DescontoIncondicionado>
@@ -37,44 +37,38 @@
                         <ItemListaServico>403</ItemListaServico>
                         <CodigoCnae>8630503</CodigoCnae>
                         <CodigoTributacaoMunicipio>863050300</CodigoTributacaoMunicipio>
-                        <Discriminacao>SERVIÇO PRESTADO PELO SÓCIO PROPRIETARIO – MEDICO ESPAÇO
-                            CUIDAR.</Discriminacao>
-                        <CodigoMunicipio>2304202</CodigoMunicipio>
+                        <Discriminacao>REFERENTE A REALIZAÇÃO DE CONSULTA MÉDICA</Discriminacao>
+                        <CodigoMunicipio>2307304</CodigoMunicipio>
                     </Servico>
                     <PrestadorServico>
                         <IdentificacaoPrestador>
-                            <Cnpj>33686252000175</Cnpj>
-                            <InscricaoMunicipal>6519163</InscricaoMunicipal>
+                            <Cnpj>29765135000120</Cnpj>
+                            <InscricaoMunicipal>1563744</InscricaoMunicipal>
                         </IdentificacaoPrestador>
-                        <RazaoSocial>CASARAO SAUDE SERVICOS MEDICOS LTDA</RazaoSocial>
-                        <NomeFantasia>CASARAO SAUDE</NomeFantasia>
-                        <Endereco>AV PADRE CICERO 2813</Endereco>
-                        <Contato>
-                            <Email>CASARAOSAUDE@OUTLOOK.COM</Email>
-                        </Contato>
+                        <RazaoSocial>CLINICA MEDCENTER LTDA</RazaoSocial>
+                        <NomeFantasia>CLINICA MEDCENTER</NomeFantasia>
+                        <Endereco>RUA RAIMUNDO MACHADO DA SILVA 155</Endereco>
+                        <Contato />
                     </PrestadorServico>
                     <TomadorServico>
                         <IdentificacaoTomador>
                             <CpfCnpj>
-                                <Cnpj>83506030002498</Cnpj>
+                                <Cpf>21518904300</Cpf>
                             </CpfCnpj>
                             <InscricaoMunicipal>0</InscricaoMunicipal>
                         </IdentificacaoTomador>
-                        <RazaoSocial>BENEFICENCIA CAMILIANA DO SUL</RazaoSocial>
+                        <RazaoSocial>Ciro Gonçalves Neto</RazaoSocial>
                         <Endereco>
-                            <Endereco>RUA CAROLINO SUCUPIRA</Endereco>
-                            <Numero>307</Numero>
-                            <Bairro>PIMENTA</Bairro>
-                            <CodigoMunicipio>2304202</CodigoMunicipio>
+                            <Endereco>RUA Valdomiro José Oliveira</Endereco>
+                            <Numero>294</Numero>
+                            <Bairro>Altiplano</Bairro>
+                            <CodigoMunicipio>2305506</CodigoMunicipio>
                             <Uf>CE</Uf>
-                            <Cep>63105010</Cep>
                         </Endereco>
-                        <Contato>
-                            <Telefone>(88)3521-2250</Telefone>
-                        </Contato>
+                        <Contato />
                     </TomadorServico>
                     <OrgaoGerador>
-                        <CodigoMunicipio>2304202</CodigoMunicipio>
+                        <CodigoMunicipio>2307304</CodigoMunicipio>
                         <Uf>CE</Uf>
                     </OrgaoGerador>
                     <ConstrucaoCivil>

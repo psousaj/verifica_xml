@@ -13,7 +13,7 @@ class Logger:
         self.console_handler.setLevel(logging.DEBUG)
 
         # Criando um handler para o log em arquivo de texto
-        self.file_handler = logging.FileHandler('webhook_log.txt')
+        self.file_handler = logging.FileHandler('z_logs.txt')
         self.file_handler.setLevel(logging.DEBUG)
 
         # Definindo o formato das mensagens de log
